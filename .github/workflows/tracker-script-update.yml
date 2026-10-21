@@ -9,7 +9,7 @@ on:
 
 jobs:
   tracker-script-update:
-    runs-on: blacksmith-4vcpu-ubuntu-2404
+    runs-on: ubuntu-24.04
     permissions:
       pull-requests: write
       contents: read
